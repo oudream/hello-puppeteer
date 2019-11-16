@@ -1,0 +1,8 @@
+{
+  "name": "hello-puppeteer",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "puppeteer": "^2.0.0"
+  }
+}

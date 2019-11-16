@@ -1,0 +1,15 @@
+[submodule "referto/checkly-puppeteer-examples"]
+	path = referto/checkly-puppeteer-examples
+	url = https://github.com/checkly/puppeteer-examples.git
+[submodule "referto/GoogleChromeLabs-puppeteer-examples"]
+	path = referto/GoogleChromeLabs-puppeteer-examples
+	url = https://github.com/GoogleChromeLabs/puppeteer-examples.git
+[submodule "referto/awesome-puppeteer"]
+	path = referto/awesome-puppeteer
+	url = https://github.com/transitive-bullshit/awesome-puppeteer.git
+[submodule "referto/yidinghan-daily-signin"]
+	path = referto/yidinghan-daily-signin
+	url = https://github.com/yidinghan/daily-signin.git
+[submodule "referto/html_to_pdf"]
+	path = referto/html_to_pdf
+	url = https://github.com/chuongtrh/html_to_pdf.git

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/referto/GoogleChromeLabs-puppeteer-examples" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/referto/awesome-puppeteer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/referto/checkly-puppeteer-examples" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/referto/yidinghan-daily-signin" vcs="Git" />
+  </component>
+</project>
