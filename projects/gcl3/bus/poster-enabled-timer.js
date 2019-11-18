@@ -11,16 +11,16 @@ function delay(time) {
     //     executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
     //     dumpio: true
     // });
-    const browser = await puppeteer.launch({
-        headless: true,
-        args: ['--no-sandbox', '--headless', '--disable-gpu', '--disable-dev-shm-usage']
-    });
-    // const browser = await puppeteer.launch()
     // const browser = await puppeteer.launch({
     //     headless: true,
-    //     executablePath: '/usr/bin/chromium-browser',
     //     args: ['--no-sandbox', '--headless', '--disable-gpu', '--disable-dev-shm-usage']
-    // })
+    // });
+    // const browser = await puppeteer.launch()
+    const browser = await puppeteer.launch({
+        headless: true,
+        executablePath: '/usr/bin/chromium-browser',
+        args: ['--no-sandbox', '--headless', '--disable-gpu', '--disable-dev-shm-usage']
+    })
     const page = await browser.newPage()
 
     const navigationPromise = page.waitForNavigation()
